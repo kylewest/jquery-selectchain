@@ -1,0 +1,11 @@
+{
+  "name": "jquery.selectchain",
+  "authors": [
+    "Kyle West <kswest@gmail.com>"
+  ],
+  "description": "",
+  "main": "jquery.selectchain.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
