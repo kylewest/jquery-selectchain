@@ -48,8 +48,7 @@
                             settings.target
                                 .find("option:first")
                                 .attr("selected", "selected")
-                                .parent("select")
-                                .trigger("change");
+                                .parent("select");                               
 
                             if (settings.select) {
                                 var data = settings.target.data("selected");
@@ -58,6 +57,7 @@
                                 if (!settings.persistSelection)
                                     settings.target.removeData("selected");
                             }
+                            settings.target.trigger("change");
                         }, 0);
                     },
                     error: function(xhr, desc, er) {
