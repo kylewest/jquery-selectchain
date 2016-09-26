@@ -62,7 +62,7 @@
                     },
                     error: function(xhr, desc, er) {
                         // add whatever debug you want here.
-                        alert("an error occurred");
+                        throw er;
                     }
                 });
             });
